@@ -327,37 +327,6 @@ p {
   }
 }
 
-@media (max-width: 480px) {
-  .video-content {
-    padding: 15px;
-  }
-
-  .content-images img {
-    width: 100%;
-    max-width: 200px;
-  }
-
-  h1 {
-    font-size: 24px;
-  }
-
-  p {
-    font-size: 12px;
-  }
-
-  .social-channels {
-    text-align: center;
-  }
-
-  .icons {
-    justify-content: center;
-  }
-
-  .icons img {
-    width: 30px;
-    height: 30px;
-  }
-}
 
 
   /* client section  */
