@@ -294,7 +294,7 @@ p {
   .video-content, .content, .content-images {
     flex-direction: column;
     width: 100%;
-    padding: 20px;
+    
   }
 
   .content-text {
@@ -305,6 +305,7 @@ p {
 
   .content-images {
     justify-content: center;
+    width: 100%;
   }
 
   h1 {
