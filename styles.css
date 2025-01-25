@@ -963,6 +963,65 @@ body {
   text-align: left;
 }
 
+/* accordion section  */
+
+
+
+.accordion {
+  max-width: 1024px;
+  margin: auto;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: medium;
+  background-color: #f9f9f9;
+  border: none;
+  outline: none;
+}
+
+.accordion-title:hover {
+  background-color: #e6e6e6;
+}
+
+.accordion-content {
+  display: none;
+  padding: 15px 20px;
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #333;
+}
+
+.icon {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.frequent-title span{
+  color: #8c4ef8;
+}
+.frequent-header {
+  text-align: center;
+}
+
+
 
 
 
