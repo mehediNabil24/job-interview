@@ -1019,7 +1019,124 @@ body {
 }
 .frequent-header {
   text-align: center;
+  margin-bottom: 20px;
 }
+
+
+
+/* footer section  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+footer {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  border-top: 1px solid #eaeaea;
+  margin-top: 75px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-logo {
+  flex: 1 1 200px;
+}
+
+.footer-logo h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-outline {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #6a5af9, #9a59f5);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.footer-links,
+.footer-services,
+.footer-contact {
+  flex: 1 1 200px;
+}
+
+.footer-links h3,
+.footer-services h3,
+.footer-contact h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul,
+.footer-services ul {
+  list-style: none;
+}
+
+.footer-links li,
+.footer-services li {
+  margin-bottom: 5px;
+}
+
+.footer-contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-contact input,
+.footer-contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.footer-contact button {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
 
 
 
